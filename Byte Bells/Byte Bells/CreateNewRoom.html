@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create New Room</title>
+    <link rel="stylesheet" type="text/css" href="CreatingNewRoom.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create New Room</h2>
+        <button id="add-room-button">Add New Room</button>
+        <form id="room-form" class="hidden">
+            <select id="room-type" required>
+                <option value="" disabled selected>Select Room Type</option>
+                <!-- Add options dynamically from the server if needed -->
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+            <input type="text" id="room-number" placeholder="Room Number" required>
+            <button type="submit">Create Room</button>
+        </form>
+    </div>
+    <script src="CreatingNewRoom.js"></script>
+</body>
+</html>

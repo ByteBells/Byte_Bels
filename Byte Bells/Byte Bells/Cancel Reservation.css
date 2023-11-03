@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/waiting-room-medical-center_188544-27914.jpg?t=st=1698991382~exp=1698994982~hmac=dd19c44ddc718efb38a7d78511eeb0bce949fa5610a55560c27884ec160b1475&w=1380");
+  background-color: rgb(73, 72, 72);
+  background-blend-mode: multiply;
+}
+
+.container {
+  background-color: #c37d7d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+}
+
+h1 {
+  color: #007BFF;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #FF0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #CC0000;
+}
+
+.message {
+  color: #FF0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}

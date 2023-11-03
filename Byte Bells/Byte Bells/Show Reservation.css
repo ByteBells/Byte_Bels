@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/waiting-room-medical-center_188544-27914.jpg?t=st=1698991382~exp=1698994982~hmac=dd19c44ddc718efb38a7d78511eeb0bce949fa5610a55560c27884ec160b1475&w=1380");
+    background-color: rgb(73, 72, 72);
+    background-blend-mode: multiply;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 800px;
+  }
+  
+  h1 {
+    color: #007BFF;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  table {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+
+  table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  .button {
+    background-color: #FF0000;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #CC0000;
+  }
+  

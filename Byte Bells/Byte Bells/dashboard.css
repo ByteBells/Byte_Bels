@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    background-image: url("https://img.freepik.com/free-photo/waiting-room-medical-center_188544-27914.jpg?t=st=1698991382~exp=1698994982~hmac=dd19c44ddc718efb38a7d78511eeb0bce949fa5610a55560c27884ec160b1475&w=1380");
+    background-color: rgb(73, 72, 72);
+    background-blend-mode: multiply;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+.table{
+    background-color: aliceblue;
+}

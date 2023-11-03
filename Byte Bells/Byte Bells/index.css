@@ -1,0 +1,40 @@
+body{
+   
+    background-image: url("https://img.freepik.com/free-photo/waiting-room-medical-center_188544-27914.jpg?t=st=1698991382~exp=1698994982~hmac=dd19c44ddc718efb38a7d78511eeb0bce949fa5610a55560c27884ec160b1475&w=1380");
+    background-color: rgb(73, 72, 72);
+    background-blend-mode: multiply;
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+}
+form{
+   text-align: center;
+   size: 70%;
+}
+input{
+    background-color: rgb(255, 253, 250);
+    color: rgb(232, 177, 105);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input:hover{
+    background-color: rgb(236, 206, 170);
+}
+button{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: normal;
+}
+button:hover{
+    background-color: rgb(143, 85, 13);
+}

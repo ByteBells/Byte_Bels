@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(246, 249, 255, 0.7),rgba(113, 113, 113, 0.7)), 
+    url(https://img.freepik.com/free-photo/luxury-sunset-poolside-relaxation-with-stunning-landscape-view-generated-by-ai_188544-30833.jpg?t=st=1698997750~exp=1699001350~hmac=2125aa6ee44874d10cdbfbe3904562c603e0427d0fecc1f298453bd3c84ff719&w=1380);
+    background-position: center;
+    background-size:cover;
+     
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}

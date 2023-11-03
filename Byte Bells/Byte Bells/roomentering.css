@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/waiting-room-medical-center_188544-27914.jpg?t=st=1698991382~exp=1698994982~hmac=dd19c44ddc718efb38a7d78511eeb0bce949fa5610a55560c27884ec160b1475&w=1380");
+    background-color: rgb(39, 37, 37);
+    background-blend-mode: multiply;
+  }
+ .demo-bg{
+    opacity: 900%;
+    position: relative;
+ }
+  
+  header {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-item {
+    margin-right: 5rem;
+
+  }
+  .nav-item1{
+    margin-left: 45rem;
+
+  }
+  .nav-item1{
+    margin-left: 25rem;
+
+  }
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff;
+    background-color: #cca26c;
+  }
+  
+  main {
+    padding: 2rem 0;
+  }
+  
+  .card {
+    box-shadow: 0px 1px 3px rgba(238, 157, 157, 0.1);
+  }
+  
+  .card-header {
+    background-color: #ffffff;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.3rem;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.3rem;
+  }
+  .login{
+    position: relative;
+    text-align: center;
+    
+  }
+  .button{
+    width: 150px;
+    height 200px;
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-left: 40%;
+    background-color: #ffa127;
+    border: none;
+
+  }

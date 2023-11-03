@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Room Type</title>
+    <link rel="stylesheet" type="text/css" href="two.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Create New Room Type</h2>
+      <button id="add-room-type-button">Add New Room Type</button>
+      <form id="room-type-form" class="hidden">
+        <input
+          type="text"
+          id="room-type-name"
+          placeholder="Room Type Name"
+          required
+        />
+        <input
+          type="number"
+          id="max-guests"
+          placeholder="Maximum Guest Capacity"
+          required
+        />
+        <input
+          type="number"
+          id="rate-per-night"
+          placeholder="Rate per Night"
+          required
+        />
+        <button type="submit">Create Room Type</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(246, 249, 255, 0.7),rgba(113, 113, 113, 0.7)), 
+    url(https://img.freepik.com/free-photo/modern-luxury-domestic-room-comfortable-relaxation-generative-ai_188544-12679.jpg?w=1380&t=st=1698998310~exp=1698998910~hmac=b2c397b3a4aaa1766db25ae21b1514a26d73fa017d57bf4951f37d9af044dfe9);
+    background-position: center;
+    background-size:cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b7c5fd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+li h3 {
+    margin: 0;
+}
+
+li p {
+    margin: 0;
+}
